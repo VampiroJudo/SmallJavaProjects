@@ -20,9 +20,9 @@ public class Program {
 		Student student2 = new Student("Sophie", "Neveu");
 		
 		System.out.println("- student1 ID is: " +student1.id);
-		System.out.println("- student1 name is: " +student1.getLastName() + ", " + student1.getFirstName());
+		System.out.println("- student1 name is: " +student1.getLastName() + ", " + student1.getLastName());
 		System.out.println("- student2 ID is: " +student2.id);
-		System.out.println("- student2 name is: " +student2.getLastName() + ", " + student2.getFirstName());
+		System.out.println("- student2 name is: " +student2.getFirstName() + ", " + student2.getLastName());
 		
 		System.out.println("");
 		
