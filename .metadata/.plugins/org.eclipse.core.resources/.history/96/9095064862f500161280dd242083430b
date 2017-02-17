@@ -1,0 +1,9 @@
+import java.util.HashSet;
+
+class Course {
+	static int nextId = 0;
+	final int id;
+	final String name;
+	final.HashSet<Student> registeredStudents = new HashSet<Student>();
+
+}
