@@ -1,0 +1,13 @@
+class Student {
+	
+	int id;
+	String firstName;
+	String lastName;
+	int birthYear, birthMonth, birthDay;
+	
+	boolean isBirthday() {
+		//Return true if it's the student's birthday today
+		return false;
+	}
+
+}
