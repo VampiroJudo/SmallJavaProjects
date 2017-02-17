@@ -26,9 +26,5 @@ class Student {
 		firstStudent.firstName = "Marc";
 		secondStudent.id = 2;
 		secondStudent.firstName = "Sophie";
-		
-		System.out.println("The student object referred " + "by the variable secondStudent has the first " + "name: " + secondStudent);
-
 	}
-	
 }

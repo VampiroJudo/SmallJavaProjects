@@ -24,6 +24,7 @@ class Student {
 		Student secondStudent = new Student();
 		firstStudent.id = 1;
 		firstStudent.firstName = "Marc";
+		
 		secondStudent.id = 2;
 		secondStudent.firstName = "Sophie";
 		
