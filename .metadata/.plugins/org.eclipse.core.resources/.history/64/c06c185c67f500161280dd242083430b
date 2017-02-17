@@ -20,15 +20,15 @@ public class Program {
 		Student student2 = new Student("Sophie", "Neveu");
 		
 		System.out.println("- student1 ID is: " +student1.id);
-		System.out.println("- student1 name is: " +student1.getFirstName() + ", " + student1.getLastName());
+		System.out.println("- student1 name is: " student.getFirstName() + ", " + student1.getLastName());
 		System.out.println("- student2 ID is: " +student2.id);
-		System.out.println("- student2 name is: " +student2.getFirstName() + ", " + student2.getLastName());
+		System.out.println("- student2 name is: " student.getFirstName() + ", " + student2.getLastName());
 		
 		System.out.println("");
 		
 		System.out.println("Registering for courses...");
-		student1.registerForCourse(courseA);
-		student2.registerForCourse(courseB);
+		student1.registerForCourse(CourseA);
+		student2.registerForCourse(CourseB);
 		courseA.registerStudent(student2);
 		
 		System.out.println("- courseA number of students: " + courseA.nrOfRegisteredStudents());

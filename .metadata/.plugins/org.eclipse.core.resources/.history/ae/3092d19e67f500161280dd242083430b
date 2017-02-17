@@ -22,10 +22,10 @@ public class Student {
 	}
 	
 	void registerForCourse(Course c) {
-		c.registerStudent(this);
+		c.registeredStudent(this);
 	}
 	
-	void unregisterForCourse(Course c) {
+	void unregisterFromCourse(Course c) {
 		c.unregisterStudent(this);
 	}
 }

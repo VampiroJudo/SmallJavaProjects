@@ -25,7 +25,7 @@ public class Student {
 		c.registerStudent(this);
 	}
 	
-	void unregisterForCourse(Course c) {
+	void unregisterFromCourse(Course c) {
 		c.unregisterStudent(this);
 	}
 }

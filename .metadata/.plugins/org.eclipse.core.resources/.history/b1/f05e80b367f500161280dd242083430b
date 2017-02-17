@@ -18,11 +18,11 @@ class Course {
 		return name;
 	}
 	
-	void registerStudent(Student s) {
+	void unregisterStudent(Student s) {
 		registeredStudents.add(s);
 	}
 	
-	void unregisterStudent(Student s) {
+	void unregisteredStudents(Student s) {
 		registeredStudents.remove(s);
 	}
 	

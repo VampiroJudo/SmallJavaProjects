@@ -22,7 +22,7 @@ class Course {
 		registeredStudents.add(s);
 	}
 	
-	void unregisterStudent(Student s) {
+	void unregisterStudents(Student s) {
 		registeredStudents.remove(s);
 	}
 	
