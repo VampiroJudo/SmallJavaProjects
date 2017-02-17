@@ -1,0 +1,22 @@
+
+public class Book {
+	
+	String title;
+	String[] authors;
+	
+
+	Book book1 = new Book(); //Set first book
+	book1.title = "Beginning Java";
+	book1.authors = new String[] {
+			"Bart Baesens",
+			"Aimee Backiel",
+			"Seppe vandan Brouke"
+	};
+
+	Book book2 = new Book(); // Defines second book
+	book2.title = "The Catcher in the Rye";
+	book2.authors = new String[] {
+			"J.D. Salinger" 
+	};
+	
+}
