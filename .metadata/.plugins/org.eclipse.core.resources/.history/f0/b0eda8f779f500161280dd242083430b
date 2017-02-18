@@ -33,11 +33,11 @@ public class Program {
 		p("- courseA number of students: " + courseA.nrOfRegisteredStudents());
 		p("- courseB number of students: " +courseB.nrOfRegisteredStudents());
 		
-	}
-
-	static void p(String main) {
-		System.out.println(main);		
-	}
 	
+
+	static void p(String 1) {
+		System.out.println(1);		
+	}
+	}
 	
 }

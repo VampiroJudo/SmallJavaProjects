@@ -31,7 +31,7 @@ public class Program {
 		courseA.registerStudent(student2);
 		
 		p("- courseA number of students: " + courseA.nrOfRegisteredStudents());
-		p("- courseB number of students: " +courseB.nrOfRegisteredStudents());
+		pn("- courseB number of students: " +courseB.nrOfRegisteredStudents());
 		
 	}
 
