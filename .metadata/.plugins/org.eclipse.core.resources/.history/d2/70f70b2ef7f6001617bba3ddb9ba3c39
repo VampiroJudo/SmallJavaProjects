@@ -13,7 +13,7 @@ public class Errors {
 		}
 		double monthlyPension = retirementFund/yearsInRetirement/12;
 		DecimalFormat df = new DecimalFormat ("0.##");
-		System.out.println(name + " will have $" + df.format(monthlyPension) + " per month for retirement.");
+		System.out.println(name + " will have $" + monthlyPension + " per month for retirement.");
 		}
 		
 		public static double recalculate(double fundAmount, double rate) {
