@@ -1,6 +1,6 @@
 
 public class SwitchClassTwo {
-	public static void main(String[] args) {
+	public static void mainTwo(String[] args) {
 
 		int month = 4; //here 4 represents April
 		int lastDay;
