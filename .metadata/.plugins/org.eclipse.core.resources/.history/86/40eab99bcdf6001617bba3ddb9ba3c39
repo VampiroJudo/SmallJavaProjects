@@ -1,0 +1,37 @@
+
+public class SwitchClassTwo {
+	private static int finalDay;
+
+	public static void mainTwo(String[] args) {
+
+		int month = 4; //here 4 represents April
+		boolean leapYear = false;
+		
+		
+		switch (month) {
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12:
+			finalDay = 31; 
+			break;
+		case 2:
+			if (leapYear == true) {
+				finalDay = 29;
+			} else {
+				finalDay = 28;
+			} 
+			break;
+		case 4:
+		case 6:
+		case 9:
+		case 11:
+			finalDay = 30;
+			break;
+		default: finalDay = 0;
+		}
+	}
+}
