@@ -19,6 +19,7 @@ public class SwitchClass {
 		default:
 			interestRate = 0;
 		}
-		System.out.println(loanType + " loans have an annual interest rate of " + interestRate * 100 + "%.");
+		System.out.println(loanType + "loans have an annual interest rate of " + interestRate * 100 + "%.");
 	}
+
 }

@@ -21,4 +21,17 @@ public class SwitchClass {
 		}
 		System.out.println(loanType + " loans have an annual interest rate of " + interestRate * 100 + "%.");
 	}
+
+
+
+
+static String[] employees;
+ static boolean findEmployee(String employeeID) {
+	 for (String emp : employees) {
+		 if (emp.equals(employeeID)) {
+			 return true;
+		 }
+	 }
+	return false;
+ }
 }
