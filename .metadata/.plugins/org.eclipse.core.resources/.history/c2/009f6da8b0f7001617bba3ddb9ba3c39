@@ -1,7 +1,7 @@
-// Requiring initialization as part of the constructor
 
 public class ExceptionExamples {
 	
+	// Requiring initialization as part of the constructor
 	
 	public static void main(String[] args) {
 		JobType manager = new JobType("Manager", 6);
