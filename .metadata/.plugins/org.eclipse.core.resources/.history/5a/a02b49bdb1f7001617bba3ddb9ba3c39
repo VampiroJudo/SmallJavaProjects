@@ -6,7 +6,7 @@ public class IndexExceptionExample {
 		int totalHours = 0;
 		
 		for (int i = 0; i < hoursWorked.length; i++) {
-			totalHours += hoursWorked[i];
+			hoursWorked += hoursWorked[i];
 		}
 		System.out.println("Total hours worked  = " + totalHours);
 		
