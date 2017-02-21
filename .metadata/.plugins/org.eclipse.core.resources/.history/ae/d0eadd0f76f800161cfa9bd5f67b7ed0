@@ -20,8 +20,6 @@ public class TryCatchFinallyExample {
 			System.out.println("You must enter double values. " + "Please restart program.");
 			//terminate this program
 			System.exit(0);
-		} catch (ArithmeticException ae) {
-			
 		}
 	}
 }
