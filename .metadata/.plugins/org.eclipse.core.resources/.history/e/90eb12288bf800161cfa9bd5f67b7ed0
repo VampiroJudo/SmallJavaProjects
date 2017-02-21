@@ -34,10 +34,6 @@ public class TryCatchFinallyExample {
 			System.exit(0);
 		}
 	}
-	// method asks for and scan three doubles:
-	//principle interest rate and loan years
-	
-	
 }
 
 

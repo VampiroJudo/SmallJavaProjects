@@ -26,18 +26,8 @@ public class TryCatchFinallyExample {
 			System.out.println("Years must be greater than 0. " + "Please restart problem.");
 			//terminate the program
 			System.exit(0);
-		} catch (IndexOutOfBoundsException ioob) {
-			//calculatePayment() method throws IndexOutOfBoundsException
-			//if double[] has less than 3 elements
-			System.out.println("Three doubles are required. " + "Please restart program.");
-			//terminate the program
-			System.exit(0);
 		}
 	}
-	// method asks for and scan three doubles:
-	//principle interest rate and loan years
-	
-	
 }
 
 
