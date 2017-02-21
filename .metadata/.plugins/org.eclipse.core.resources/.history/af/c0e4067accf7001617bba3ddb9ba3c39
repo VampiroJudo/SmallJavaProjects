@@ -15,20 +15,13 @@ public class TryCatchFinallyExample {
 				double monthlyPension = retirementFund/yearsInRetirement/12;
 				DecimalFormat df = new DecimalFormat ("0.##");
 				System.out.println(name + " will have $" + df.format(monthlyPension) + " per month for retirement.");
-				
-			} catch  (ArithmeticException ae) {
-				System.out.println(ae);
-				System.exit(0);
+				}
 			}
-				
 			
-			
-			
-//				public static double recalculate(double fundAmount, double rate) {
-//					return  fundAmount*(1+rate);
-//				}
-			
-
+			public static double recalculate(double fundAmount, double rate) {
+				return  fundAmount*(1+rate);
+		}
+}
 
 
 
