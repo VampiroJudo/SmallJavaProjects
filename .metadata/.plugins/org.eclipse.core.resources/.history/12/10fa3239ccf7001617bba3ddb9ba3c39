@@ -1,6 +1,8 @@
 import java.text.DecimalFormat;
 
 public class TryCatchFinallyExample {
+	
+	public class Errors {
 		
 		public static void main(String[] args) {
 			int age = 30;
@@ -18,7 +20,7 @@ public class TryCatchFinallyExample {
 			public static double recalculate(double fundAmount, double rate) {
 				return  fundAmount*(1+rate);
 		}
+	}
+
+
 }
-
-
-
