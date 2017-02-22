@@ -1,5 +1,4 @@
 import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -14,7 +13,7 @@ public class TryCatchFinallyExample {
 		double payment = calculatePayment(userValues);
 		
 		//Print the calculated payment according to the format above
-		System.out.println("Monthly payment: $" + df.format (payment));
+		System.out.println("Monthly payment: $" + df.format(payment));
 		} catch (InputMismatchException ime) {
 			//scanValues() method throws InputMismatchException
 			//if user's entry cannot be parsed into a double

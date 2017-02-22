@@ -1,5 +1,4 @@
 import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -14,8 +13,8 @@ public class TryCatchFinallyExample {
 		double payment = calculatePayment(userValues);
 		
 		//Print the calculated payment according to the format above
-		System.out.println("Monthly payment: $" + df.format (payment));
-		} catch (InputMismatchException ime) {
+		System.out.println("Monthly payment: $" + df.format(payment));
+		} catch (inputMismatchException ime) {
 			//scanValues() method throws InputMismatchException
 			//if user's entry cannot be parsed into a double
 			System.out.println("You must enter double values. " + "Please restart program.");
@@ -46,14 +45,14 @@ public class TryCatchFinallyExample {
 			System.out.print("Enter the interest rate: ");
 			values[1] = scan.nextDouble();
 			System.out.print("Enter the loan term (in years: ");
-			values[2] = scan.nextInt();
+			values[2] = scan.textInt();
 		}
 		return values;
 	}
 	// method takes a double[] with three elements
 	// and calculates a monthly payment
 	public static double calculatePayment(double[] values)
-		throws ArithmeticException, IndexOutOfBoundsException {
+		throws ArimethticException, IndexOutOfBoundsException {
 		double principle = values [0];
 		double rate = values[1];
 		double years = values[2];
