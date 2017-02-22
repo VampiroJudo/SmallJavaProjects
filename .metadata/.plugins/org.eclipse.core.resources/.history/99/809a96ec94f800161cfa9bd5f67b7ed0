@@ -37,21 +37,6 @@ public class TryCatchFinallyExample {
 	// method asks for and scan three doubles:
 	//principle interest rate and loan years
 	
-	public static double[] scanValues() throws InputMismatchException {
-		double[] values = new double[3];
-		try (Scanner scan = new Scanner(System.in)) {
-			System.out.print("Ener the loan amount: ");
-			values[0] =  scan.nextDouble();
-			System.out.print("Enter the interest rate: ");
-			values[1] = scan.nextDouble();
-			System.out.print("Enter the loan term (in years: ");
-			values[2] = scan.textInt();
-		}
-		return values;
-	}
-	// method takes a double[] with three elements
-	// and calculates a monthly payment
-	
 	
 }
 
