@@ -10,5 +10,5 @@ public class Account {
 		this.amount = new BigDecimal(startAmount);
 		this.amount = setScale(2, BigDecimal.ROUND_HALF_UP);
 	}
-	
+
 }
