@@ -1,9 +1,11 @@
+import java.math.BigDecimal;
+
 public class AccountManager {
 
 	public static void main(String[] args) {
 		Account myAccount = new Account("FirstAccount", "10.00");
-		System.out.println("Account created: " + myAccount.getName());
-		System.out.println("Balance: " + myAccount.getAmount());
+		System.out.println("Account created: " + myAccount.name);
+		System.out.println("Balance: " + myAccount.amount);
 		
 		try {
 			myAccount.withdraw("20.00");

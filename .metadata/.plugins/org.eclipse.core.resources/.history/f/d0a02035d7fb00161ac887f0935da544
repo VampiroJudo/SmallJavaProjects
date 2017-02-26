@@ -30,23 +30,22 @@ public class Account {
 		this.amount = new BigDecimal(newAmount);
 	}
 	
-	public void withdraw(String withdrawal) throws IllegalArgumentException {
-		BigDecimal desiredAmount = new BigDecimal(withdrawal);
+	public void withdraw(String withdrawal) throw IllegalArgumentException {
 		
 		//if desired amount is a negative throw an exception
-		if (desiredAmount.compareTo(BigDecimal.ZERO) < 0) {
+		if (amount.compareTo(BigDecimal.ZERO) < 0) {
 			throw new IllegalArgumentException();
 		}
 		
 		// If amount is less than the desired amount, throw an exception
-		if (amount.compareTo(desiredAmount) < 0) {
+		if(amount.compareTo(desiredAmount) < 0) {
 			throw new IllegalArgumentException();
 		}
 		
 		this.amount = this.amount.subtract(desiredAmount);
 	}
 	
-	public void deposit (String deposit) throws IllegalArgumentException {
+	public void deposit (String deposit) throw IllegalArgumentException {
 			BigDecimal desiredAmount = new BigDecimal(deposit);
 			
 			//if desired amount is a negative throw an exception
@@ -54,7 +53,7 @@ public class Account {
 				throw new IllegalArgumentException();
 			}
 			
-			this.amount = this.amount.add(desiredAmount);
+			this.amount = this.amount.subtract(desiredAmount);
 	}
 }
 		

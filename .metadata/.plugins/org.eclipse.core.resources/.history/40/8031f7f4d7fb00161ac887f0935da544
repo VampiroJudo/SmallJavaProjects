@@ -31,7 +31,6 @@ public class Account {
 	}
 	
 	public void withdraw(String withdrawal) throws IllegalArgumentException {
-		BigDecimal desiredAmount = new BigDecimal(withdrawal);
 		
 		//if desired amount is a negative throw an exception
 		if (desiredAmount.compareTo(BigDecimal.ZERO) < 0) {
